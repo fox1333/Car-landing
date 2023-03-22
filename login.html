@@ -1,0 +1,56 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title></title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/iconsFont.css">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scale=0" />
+	<meta http-equiv=" Content-type" content="text/html;charset=UTF-8" />
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+	<link rel=" stylesheet" href="./style.css">
+	<script src="https://kit.fontawesome.com/745a49bc04.js" crossorigin="anonymous"></script>
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<div class="wrapper">
+		<div class="form-box__container">
+			<div class="form-box">
+				<h1 id="titleLogin">Sign Up</h1>
+				<form action="#" id="form">
+					<div class="input-group">
+						<div class="input-field" id="nameField">
+							<i class="fa-solid fa-user"></i>
+							<input type="text" class="_req" placeholder="Name">
+						</div>
+						<div class="input-field">
+							<i class="fa-solid fa-envelope"></i>
+							<input type="email" class="_req _email" placeholder="Email">
+						</div>
+						<div class="input-field">
+							<i class="fa-solid fa-user"></i>
+							<input type="password" class="_req" placeholder="Password">
+						</div>
+						<p>Lost password <a href="#">Click Here!</a></p>
+					</div>
+					<div class="btn-field">
+						<button type="submit" id="signupBtn">Sign up</button>
+						<button type="submit" id="signinBtn" class="disable">Sign in</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="js/login.js"></script>
+</body>
+
+</html>
